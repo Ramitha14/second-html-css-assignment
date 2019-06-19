@@ -1,0 +1,104 @@
+
+.heading{
+  background-color:white;
+  width: 100vw;
+  height: 10vh;
+  /* padding:10px; */
+  position:fixed
+}
+.heading h1
+{
+ float:left; 
+text-align: center;
+color:black;
+font-size: 40px;
+padding:2px 0 5px 2px; 
+}
+.heading a
+{
+float:right;
+padding:20px 30px;
+font-size: 20px;
+color: black;
+}
+.hero
+{
+  width:none;
+  height:150px; 
+  background-color:gainsboro;
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  padding:15px;
+  margin-bottom:5%;
+}
+*{
+  box-sizing: border-box;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+  height:350px;
+  background-color: white;
+  margin-bottom: 2%; 
+  -webkit-column-gap: 40px;
+}
+.column2 {
+  float: left;
+  width: 33.33%;
+  height:350px;
+  background-color:white;
+  margin-bottom: 2%;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  height:350px;
+  background-color: white;
+  margin-bottom: 2%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*{
+  box-sizing: border-box;
+}
+.column4 {
+  float: left;
+  width: 50%;
+  height:350px;
+  background-color: white;
+  margin-bottom: 2%; 
+  margin-right: 2%;
+  -webkit-column-gap: 40px;
+  text-align: center;
+}
+.column5 {
+  float: left;
+  width: 45%;
+  height:300px;
+  background-color:#FFF59D;
+  margin-bottom: 2%;
+  margin-left: 3%;
+  word-spacing: 3px;
+}
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer
+{
+  clear:both;
+  background:gainsboro;
+  height:75px;
+  color:black;
+  text-align: center;
+  padding:10px;
+
+}
