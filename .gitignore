@@ -1,0 +1,8 @@
+404.html
+*.txt 
+*.xml
+favicon.ico
+*.png
+site.webmanifest 
+doc/
+js/
